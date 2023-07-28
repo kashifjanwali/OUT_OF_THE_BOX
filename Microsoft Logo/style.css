@@ -1,0 +1,32 @@
+:root {
+    --yellow: #ffbb00;
+    --green: #7cbb00;
+    --blue: #00a1f1;
+    --red: #f65314;
+}
+
+.microsoft-logo {
+    margin: 35vh auto;
+    width: 100px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px;
+    grid-gap: 5px;
+}
+
+.box1 {
+    background-color: var(--red);
+}
+
+.box2 {
+    background-color: var(--green);
+}
+
+.box3 {
+    background-color: var(--blue);
+}
+
+.box4 {
+    background-color: var(--yellow);
+}
