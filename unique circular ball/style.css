@@ -1,0 +1,205 @@
+* {
+    background-color: whitesmoke;
+}
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@900&display=swap');
+
+
+/* CSS Variables */
+:root {
+    --clr1: #FF3333;
+    --clr2: #FF6433;
+    --clr3: #FF6433;
+    --clr4: #FF7A33;
+    --clr5: #FFB833;
+    --clr6: #FFF033;
+    --clr7: #DAFF33;
+    --clr8: #B5FF33;
+    --clr9: #93FF33;
+    --clr10: #61FF33;
+    --clr11: #33FF3A;
+    --clr12: #33FF8C;
+    --clr13: #33FFB9;
+    --clr14: #33FFE6;
+    --clr15: #33EFFF;
+    --clr16: #33BDFF;
+    --clr17: #33BDFF;
+    --clr18: #3394FF;
+    --clr19: #336BFF;
+    --clr20: #3342FF;
+    --clr21: #5533FF;
+    --clr22: #8F33FF;
+    --clr23: #B433FF;
+    --clr24: #E933FF;
+    --clr25: #FF33E8;
+    --clr26: #FF33BB;
+    --clr27: #FF3391;
+    --clr28: #FF3371;
+    --clr29: #FF3358;
+    --clr30: #FF3333;
+}
+
+.circle {
+    border: 5px solid;
+    border-radius: 50%;
+}
+
+.unique-circular-ball {
+    margin: 15vh auto;
+    width: 400px;
+    height: 400px;
+    border-color: var(--clr1);
+}
+
+.c1 {
+    border-color: var(--clr2);
+    height: 390px;
+}
+
+.c2 {
+    border-color: var(--clr3);
+    height: 381px;
+}
+
+.c3 {
+    border-color: var(--clr4);
+    height: 372px;
+}
+
+.c4 {
+    border-color: var(--clr5);
+    height: 363px;
+}
+
+.c5 {
+    border-color: var(--clr6);
+    height: 354px;
+}
+
+.c6 {
+    border-color: var(--clr7);
+    ;
+    height: 345px;
+}
+
+.c7 {
+    border-color: var(--clr8);
+    height: 336px;
+}
+
+.c8 {
+    border-color: var(--clr9);
+    height: 327px;
+}
+
+.c9 {
+    border-color: var(--clr10);
+    height: 318px;
+}
+
+.c10 {
+    border-color: var(--clr11);
+    height: 309px;
+}
+
+.c11 {
+    border-color: var(--clr12);
+    height: 300px;
+}
+
+.c12 {
+    border-color: var(--clr13);
+    height: 291px;
+}
+
+.c13 {
+    border-color: var(--clr14);
+    height: 282px;
+}
+
+.c14 {
+    border-color: var(--clr15);
+    height: 273px;
+}
+
+.c15 {
+    border-color: var(--clr16);
+    height: 264px;
+}
+
+.c16 {
+    border-color: var(--clr17);
+    height: 255px;
+}
+
+.c17 {
+    border-color: var(--clr18);
+    height: 246px;
+}
+
+.c18 {
+    border-color: var(--clr19);
+    height: 237px;
+}
+
+.c19 {
+    border-color: var(--clr20);
+    height: 228px;
+}
+
+.c20 {
+    border-color: var(--clr21);
+    height: 219px;
+}
+
+.c21 {
+    border-color: var(--clr22);
+    height: 210px;
+}
+
+.c22 {
+    border-color: var(--clr23);
+    height: 201px;
+}
+
+.c23 {
+    border-color: var(--clr24);
+    height: 192px;
+}
+
+.c24 {
+    border-color: var(--clr25);
+    height: 183px;
+}
+
+.c25 {
+    border-color: var(--clr26);
+    height: 174px;
+}
+
+.c26 {
+    border-color: var(--clr27);
+    height: 165px;
+}
+
+.c27 {
+    border-color: var(--clr28);
+    height: 156px;
+}
+
+.c28 {
+    border-color: var(--clr29);
+    height: 147px;
+}
+
+.c29 {
+    border-color: var(--clr30);
+    height: 138px;
+    text-align: center;
+    line-height: 138px;
+    font-weight: 900;
+    font-size: 18px;
+    font-family: 'Tektur',
+        cursive;
+}
