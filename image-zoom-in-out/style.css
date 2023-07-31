@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: #f1f1f1;
+}
+
+.container {
+    display: inline-block;
+    overflow: hidden;
+    width: 300px;
+   border: 0.5rem solid yellowgreen;
+    margin: 1rem;
+    text-align: center;
+}
+
+.zoom {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s;
+}
+
+/* Zoom out */
+.container:hover .zoom-out {
+    transform: scale(0.9);
+}
+
+/* Zoom-in */
+.container:hover .zoom-in {
+    transform: scale(1.2);
+}
