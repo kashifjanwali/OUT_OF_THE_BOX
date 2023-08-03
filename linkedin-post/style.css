@@ -1,0 +1,54 @@
+* {
+    background-color: lavender;
+    margin: 0;
+}
+
+.in-post {
+    /* border: 0.5rem solid ghostwhite; */
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+}
+
+.image img {
+    width: 100%;
+    /* height: 450px; */
+    border-radius: 5px;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: transparent;
+    padding: 15px;
+    text-align: center;
+    margin: 3px 1.5rem 0 1.5rem;
+}
+
+.icon>img{
+    width: 30px;
+    background-color: transparent;
+    transition: transform 0.5s, margin 0.5s;
+}
+
+.icons-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        background-color: transparent;
+        padding:0 15px;
+        text-align: center;
+        margin: 0 1.5rem;
+}
+
+.icon-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.icon:hover img {
+    transform: scale(1.4);
+    margin-top: -20%;
+}
+
+.icon:focus {
+
+}
