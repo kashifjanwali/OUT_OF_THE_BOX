@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Form</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <h1>Login page</h1>
+
+        <button onclick="document.getElementById('login-form').style.display='block'" id="login"
+            type="button">Login</button>
+
+        <!-- Login Form -->
+        <div id="login-form" class="modal">
+
+            <form class="form-content animate-form" action="mailto" method="post">
+                <div class="imgagecontainer">
+                    <span onclick="document.getElementById('login-form').style.display='none'" class="close-icon"
+                        title="Close Modal">&times;</span>
+                    <img src="./images/profile.jpeg" alt="Avatar" class="profile">
+                </div>
+
+                <div class="container">
+                    <label for="user-email"><strong>Email</strong></label>
+                    <input id="user-email" type="email" placeholder="Enter Email" name="uname" required>
+
+                    <label for="password"><strong>Password</strong></label>
+                    <input type="password" placeholder="Enter Password" name="psw" id="password" required>
+
+                    <button type="button"
+                        onclick="document.getElementById('login-form').style.display='none'">Login</button>
+                    <label>
+                        <input type="checkbox" name="remember"> Remember me
+                    </label>
+                </div>
+
+                <div class="container">
+                    <button type="button" onclick="document.getElementById('login-form').style.display='none'"
+                        class="cancel-button">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+            </form>
+        </div>
+    </body>
+
+</html>
