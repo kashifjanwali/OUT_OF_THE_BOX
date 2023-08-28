@@ -1,0 +1,17 @@
+h3{
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    margin: auto;
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-bottom: 8px;
+}
+
+#effected-img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
